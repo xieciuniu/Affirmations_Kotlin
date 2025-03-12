@@ -74,7 +74,7 @@ fun AffirmationList(affirmationList: List<Affirmation>, modifier: Modifier = Mod
         items(affirmationList){ affirmation ->
             AffirmationCard(
                 affirmation = affirmation,
-                modifier = Modifier.padding(8.dp)
+                modifier = Modifier.padding(12.dp)
             )
         }
     }
